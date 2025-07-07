@@ -1,0 +1,35 @@
+{
+  "name": "honda-head-kim-chau",
+  "version": "1.0.0",
+  "description": "Honda Head Kim Châu Dealership Website - Modern, professional motorcycle dealership website",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'Static site - no build needed'",
+    "dev": "serve . -p 3000",
+    "preview": "serve . -p 8080"
+  },
+  "keywords": [
+    "honda",
+    "motorcycle",
+    "dealership",
+    "vietnam",
+    "static-site",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Head Kim Châu",
+  "license": "MIT",
+  "homepage": "https://headkimchau.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/honda-head-kim-chau"
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
