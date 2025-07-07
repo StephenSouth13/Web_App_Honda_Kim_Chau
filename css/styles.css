@@ -1952,6 +1952,107 @@ body {
     border-top: 1px solid var(--gray-200);
   }
 }
+/* Header tổng thể */
+.header {
+  background: var(--honda-white, #fff);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+/* Container trong header */
+.header .container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+/* Logo bên trái */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  gap: 10px;
+}
+
+.logo img {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.logo-text h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #D60000;
+  white-space: nowrap;
+}
+
+.logo-text p {
+  margin: 0;
+  font-size: 13px;
+  color: #555;
+}
+
+/* Navigation menu */
+.main-nav ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 15px;
+  transition: color 0.2s ease;
+}
+
+.main-nav a:hover {
+  color: #D60000;
+}
+@media (max-width: 768px) {
+  .header .container {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .logo img {
+    height: 40px;
+  }
+
+  .logo-text h1 {
+    font-size: 18px;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+
 
 /* News Pages Styles */
 .news-hero {
