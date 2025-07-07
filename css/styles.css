@@ -374,7 +374,7 @@ body {
 
 .feature-item {
   text-align: center;
-  group: hover;
+
 }
 
 .feature-icon {
@@ -2125,6 +2125,7 @@ body {
   line-height: 1.4;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2; /* new standard property */
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -2134,6 +2135,7 @@ body {
   margin-bottom: 16px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3; /* new standard property */
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
